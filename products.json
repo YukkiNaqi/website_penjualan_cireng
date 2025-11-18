@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Cireng Isi Ayam Pedas Keju",
+    "description": "Kombinasi sempurna ayam pedas dengan keju mozza yang gurih. Cocok untuk pencinta pedas!",
+    "price": 15000,
+    "category": "pedas",
+    "image": "crispy-cireng-isi-ayam-pedas-keju.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cireng Crispy Original",
+    "description": "Renyah di luar, kenyal di dalam. Cita rasa klasik yang disukai semua kalangan usia.",
+    "price": 12000,
+    "category": "original",
+    "image": "golden-crispy-original-cireng.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Cireng Salju",
+    "description": "Dibalut dengan kulit jagung berwarna putih, memberikan tekstur yang unik dan menarik.",
+    "price": 13000,
+    "category": "manis",
+    "image": "white-powdered-salju-cireng-snack.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Paket Mix Hemat",
+    "description": "Rasakan semua varian kami dalam satu paket hemat. Sempurna untuk acara atau berbagi!",
+    "price": 40000,
+    "category": "paket",
+    "image": "assorted-crispy-snacks-combo-pack.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Cireng Jagung Keju",
+    "description": "Cireng dengan isian jagung manis dan keju yang leleh. Gurih dan nikmat!",
+    "price": 14000,
+    "category": "keju",
+    "image": "cheesy-corn-cireng.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Cireng Isi Sosis",
+    "description": "Cireng gurih dengan isian sosis lembut. Cocok untuk camilan anak-anak.",
+    "price": 13500,
+    "category": "anak",
+    "image": "sosis-cireng.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Cireng Rasa Udang",
+    "description": "Cireng dengan perisa udang yang gurih dan nikmat. Alternatif rasa yang unik.",
+    "price": 14500,
+    "category": "seafood",
+    "image": "shrimp-flavored-cireng.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Cireng Isi Telur",
+    "description": "Cireng lembut dengan isian telur yang gurih. Penuh protein!",
+    "price": 15500,
+    "category": "protein",
+    "image": "egg-filled-cireng.jpg"
+  }
+]

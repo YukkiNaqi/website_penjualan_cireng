@@ -86,66 +86,27 @@
   <section id="menu" class="menu">
     <div class="container fade-in">
       <h3 class="slide-in-up">Menu Kami</h3>
+      <div class="menu-controls">
+        <div class="search-container">
+          <input type="text" id="searchInput" placeholder="Cari cireng favoritmu..." class="search-input">
+        </div>
+        <div class="filter-container">
+          <select id="categoryFilter" class="category-filter">
+            <option value="all">Semua Kategori</option>
+            <option value="pedas">Pedas</option>
+            <option value="original">Original</option>
+            <option value="manis">Manis</option>
+            <option value="keju">Keju</option>
+            <option value="anak">Untuk Anak</option>
+            <option value="seafood">Seafood</option>
+            <option value="protein">Protein</option>
+            <option value="paket">Paket</option>
+          </select>
+        </div>
+      </div>
       <div class="menu-grid">
-        <!-- Menu Item 1 -->
-        <div class="menu-card slide-in-up">
-          <div class="menu-image">
-            <img src="crispy-cireng-isi-ayam-pedas-keju.jpg" alt="Cireng Isi Ayam Pedas Keju">
-          </div>
-          <div class="menu-content">
-            <h4>Cireng Isi Ayam Pedas Keju</h4>
-            <p>Kombinasi sempurna ayam pedas dengan keju mozza yang gurih. Cocok untuk pencinta pedas!</p>
-            <div class="menu-footer">
-              <span class="price">Rp 15.000</span>
-              <button class="arrow-btn">→</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Menu Item 2 -->
-        <div class="menu-card slide-in-up">
-          <div class="menu-image">
-            <img src="golden-crispy-original-cireng.jpg" alt="Cireng Crispy Original">
-          </div>
-          <div class="menu-content">
-            <h4>Cireng Crispy Original</h4>
-            <p>Renyah di luar, kenyal di dalam. Cita rasa klasik yang disukai semua kalangan usia.</p>
-            <div class="menu-footer">
-              <span class="price">Rp 12.000</span>
-              <button class="arrow-btn">→</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Menu Item 3 -->
-        <div class="menu-card slide-in-up">
-          <div class="menu-image">
-            <img src="white-powdered-salju-cireng-snack.jpg" alt="Cireng Salju">
-          </div>
-          <div class="menu-content">
-            <h4>Cireng Salju</h4>
-            <p>Dibalut dengan kulit jagung berwarna putih, memberikan tekstur yang unik dan menarik.</p>
-            <div class="menu-footer">
-              <span class="price">Rp 13.000</span>
-              <button class="arrow-btn">→</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Menu Item 4 -->
-        <div class="menu-card slide-in-up">
-          <div class="menu-image">
-            <img src="assorted-crispy-snacks-combo-pack.jpg" alt="Paket Mix Hemat">
-          </div>
-          <div class="menu-content">
-            <h4>Paket Mix Hemat</h4>
-            <p>Rasakan semua varian kami dalam satu paket hemat. Sempurna untuk acara atau berbagi!</p>
-            <div class="menu-footer">
-              <span class="price">Rp 40.000</span>
-              <button class="arrow-btn">→</button>
-            </div>
-          </div>
-        </div>
+        <!-- Products will be loaded dynamically via JavaScript -->
+        <div class="loading-placeholder">Memuat menu...</div>
       </div>
     </div>
   </section>
